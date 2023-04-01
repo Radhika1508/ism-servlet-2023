@@ -2,25 +2,17 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
   <display-name>ism.jre</display-name>
   <welcome-file-list>
-    <welcome-file>Calc.html</welcome-file>
+    <welcome-file>Index.html</welcome-file>
   </welcome-file-list>
   
-  <servlet>
-  <servlet-name>SignUp</servlet-name>
-  <servlet-class>controller.SignUp</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  <servlet-name>SignUp</servlet-name>
-   <url-pattern>/SignUp</url-pattern>
-  </servlet-mapping>
   
   <servlet>
-  <servlet-name>Calculator</servlet-name>
-  <servlet-class>controller.Calculator</servlet-class>
+  <servlet-name>Demo</servlet-name>
+  <servlet-class>controller.Abc</servlet-class>
   </servlet>
   <servlet-mapping>
-  <servlet-name>Calculator</servlet-name>
-   <url-pattern>/Calculator</url-pattern>
+  <servlet-name>Demo</servlet-name>
+   <url-pattern>/Demo</url-pattern>
   </servlet-mapping>
 </web-app>
 
